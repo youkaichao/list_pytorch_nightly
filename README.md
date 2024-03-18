@@ -1,6 +1,8 @@
 # :zap: Get the list of available pytorch nightly versions!
 List recently available pytorch nightly version, for every day
 
+Note: the correspondence between nightly release and commit id can be found at https://hud.pytorch.org/hud/pytorch/pytorch/nightly .
+
 1. get the initial download url, by executing `pip3 download --pre torch --index-url https://download.pytorch.org/whl/nightly/cu121 --no-deps -d ./`
     - should be something like this: `https://download.pytorch.org/whl/nightly/cu121/torch-2.4.0.dev20240317%2Bcu121-cp39-cp39-linux_x86_64.whl`
 2. remove version and date, make it a template; separate the version and date
